@@ -1,0 +1,39 @@
+.Wrapper {
+  max-width: 100%;
+  margin: auto;
+  font-family: fantasy;
+  background-color: aliceblue;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+.cont {
+  gap: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+select {
+  height: 40px;
+  width: 100px;
+  background-color: transparent;
+  border-radius: 10px;
+}
+button {
+  height: 40px;
+  width: 300px;
+  border-radius: 10px;
+  background-color: transparent;
+  margin-bottom: 20px;
+  cursor: grab;
+}
+.rowWrapper {
+  display: flex;
+}
+button:hover {
+  background-color: green;
+  font-weight: bolder;
+  transition: 0.2s ease-in;
+}
